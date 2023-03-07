@@ -4,6 +4,7 @@ import gmail from '../img/gmail.png'
 import cv from '../img/cv.png'
 import dani from '../img/dani.png'
 
+
 export default function SocialNetworks(){
     return(
         <div className="socialNetworks">

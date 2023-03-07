@@ -2,6 +2,7 @@ import SocialNetworks from "./SocialNetworks.js";
 import "../App.css";
 import Xarrow from "react-xarrows"; 
 import React, { useRef } from "react";
+import NavigationMenu from "./NavigationMenu.js";
 export default function Vista1() {
     const developerRef = useRef(null);
     const leaderRef = useRef(null);
@@ -15,16 +16,17 @@ return (
         <SocialNetworks />
         <div className="v1c">
           <div className="developer" ref={developerRef}></div>
-          <div className="v1w dev">Web Developer</div>
+          <div className="v1w dev"><span>Web Developer</span></div>
           <div className="leader" ref={leaderRef}></div>
-          <div className="v1w lead">Social Leader</div>
+          <div className="v1w lead"><span>Social Leader</span></div>
           <div className="name" ref={nameRef}></div>
-          <div className="v1w na">DANIELA CÁRCAMO POSADA</div>
+          <div className="v1w na"><span>DANIELA CÁRCAMO POSADA</span></div>
           <div className="being" ref={beingRef}></div>
-          <div className="v1w be">Human Being</div>
+          <div className="v1w be"><span>Human Being</span></div>
           <div className="engineer" ref={engineerRef}></div>
-          <div className="v1w en">Engineer</div>
+          <div className="v1w en"><span>Engineer</span></div>
         </div>
+        <NavigationMenu/>
       </div>
       <Xarrow 
                 start={nameRef} 
