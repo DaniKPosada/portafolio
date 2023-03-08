@@ -1,6 +1,6 @@
 import SocialNetworks from "./SocialNetworks.js";
 import "../App.css";
-import React, { useRef } from "react";
+import React from "react";
 import NavigationMenu from "./NavigationMenu.js";
 import siemens from '../img/siemens.png'
 import colenergy from '../img/colenergy.png'

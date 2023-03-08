@@ -10,7 +10,6 @@ import juego from '../img/juego.png'
 import todolist from '../img/todolist.png'
 
 export default function Vista4() {
-    const iframeUrl = 'https://sabujcha-sjb7.vercel.app/';
     return (
     <React.Fragment>
     <div className="v13c">

@@ -28,7 +28,7 @@ export default function SocialNetworks(){
             <a href="https://www.linkedin.com/in/danielacarcamo"><img className="linkedin" src={linkedin} alt=""/></a>
             <img onClick={() => copyToClipboard('d.posada1044@gmail.com')} className="gmail" src={gmail} alt=""/>
             <div className='mensajeCopiado'>{copied && <p>¡El correo se ha copiado en su portapapeles!</p>}</div>
-            <a onClick={handleDownloadClick}><img className="cv" src={cv} alt=""/></a>
+            <img className="cv" src={cv} alt="" onClick={handleDownloadClick}/>
             <img className='dani' src={dani} alt=""/>
         </div>
     );
