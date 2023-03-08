@@ -4,30 +4,38 @@ import projects from '../img/projects.png'
 import experience from '../img/experience.png'
 import education from '../img/education.png'
 import home from '../img/home.png'
+import React from "react";
+import { Link } from 'react-router-dom'
 
 export default function NavigationMenu(){
     return(
+        <React.Fragment>
         <div className="navbar">
+            <Link to="/Vista1">
             <div className="community">
-            <img className="imgCommunity" src={community} alt=""/>
-                Community
+                <img className="imgCommunity" src={community} alt=""/>
+                <span>Community</span>
             </div>
+            </Link>
             <div className="projects">
             <img className="imgProjects" src={projects} alt=""/>
-                Projects
+            <span>Projects</span>
             </div>
             <div className="experience">
             <img className="imgExperience" src={experience} alt=""/>
-                Work experience
+            <span> Work experience</span>
             </div>
             <div className="education">
             <img className="imgEducation" src={education} alt=""/>
-                Education
+            <span> Education</span>
             </div>
+            <Link to="/Vista1">
             <div className="home">
-            <img className="imgHome" src={home} alt=""/>
-                Home
+                <img className="imgHome" src={home} alt=""/>
+                <span> Home</span>
             </div>
+            </Link>
         </div>
+        </React.Fragment>
     );
 }
