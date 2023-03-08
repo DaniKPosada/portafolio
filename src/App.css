@@ -56,8 +56,44 @@
   margin-left: 400px;
   width: 70vw;
   height: 100%;
-
-
+}
+.v2c{
+  display: flex;
+  flex-direction: column;
+  margin-top: 85px;
+  margin-left: 180px;
+  width: 90vw;
+  height: 100%;
+}
+.v3c{
+  display: flex;
+  flex-direction: column;
+  margin-top: 85px;
+  margin-left: 180px;
+  width: 90vw;
+  height: 100%;
+}
+.v2Education{
+  margin-top: 0px;
+  margin-left: -30px;
+  position:absolute;
+  z-index: 1;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  background-color: #9BFBE199;
+  width: 500px;
+  height: 130px;
+}
+.v3Experience{
+  margin-top: 0px;
+  margin-left: -30px;
+  position:absolute;
+  z-index: 1;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  background-color: #FAA99D99;
+  width: 790px;
+  height: 130px;
 }
 .developer{
   margin-top: 10px;
@@ -234,4 +270,55 @@ a{
   text-decoration: none;
   color: inherit;
 }
-
+.title{
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 70px;
+  z-index: 2;
+}
+.gridStudies {
+  font-family: 'Ubuntu', sans-serif;
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* crea tres columnas con un ancho de 1fr cada una */
+  grid-template-rows: repeat(1, 500px); /* crea cuatro filas de 100px de alto cada una */
+  grid-gap: 50px; /* establece un espacio de 10px entre las filas y columnas */
+  justify-content: center;
+  font-size: 34px;
+  text-align: center;
+}
+.programate img{
+  width: auto;
+  height: 150px;
+  margin-bottom: 30px;
+}
+.uniandes img{
+  width: 150px;
+  height: auto;
+  
+}
+.siemens img{
+  width: 360px;
+  height: auto;
+  margin-bottom: 2px;
+}
+.siemens{
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.colenergy img{
+  width: 400px;
+  height: auto;
+}
+.gridExperience {
+  font-family: 'Ubuntu', sans-serif;
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* crea tres columnas con un ancho de 1fr cada una */
+  grid-template-rows: repeat(1, 500px); /* crea cuatro filas de 100px de alto cada una */
+  grid-gap: 50px; /* establece un espacio de 10px entre las filas y columnas */
+  justify-content: center;
+  font-size: 34px;
+  text-align: center;
+}

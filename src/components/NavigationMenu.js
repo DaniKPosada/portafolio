@@ -21,14 +21,18 @@ export default function NavigationMenu(){
             <img className="imgProjects" src={projects} alt=""/>
             <span>Projects</span>
             </div>
+            <Link to="/Vista3">
             <div className="experience">
-            <img className="imgExperience" src={experience} alt=""/>
-            <span> Work experience</span>
+                <img className="imgExperience" src={experience} alt=""/>
+                <span> Work experience</span>
             </div>
+            </Link>
+            <Link to="/Vista2">
             <div className="education">
-            <img className="imgEducation" src={education} alt=""/>
-            <span> Education</span>
+                <img className="imgEducation" src={education} alt=""/>
+                <span> Education</span>
             </div>
+            </Link>
             <Link to="/Vista1">
             <div className="home">
                 <img className="imgHome" src={home} alt=""/>
