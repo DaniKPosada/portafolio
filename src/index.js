@@ -5,6 +5,7 @@ import App from './App';
 import Vista1 from './components/Vista1';
 import Vista2 from './components/Vista2';
 import Vista3 from './components/Vista3';
+import Vista4 from './components/Vista4';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 const router= createBrowserRouter([
@@ -19,6 +20,10 @@ const router= createBrowserRouter([
   {
     path:'/Vista3',
     element:<Vista3/>
+  },
+  {
+    path:'/Vista4',
+    element:<Vista4/>
   },
   {
       path:'/',

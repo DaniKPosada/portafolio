@@ -17,10 +17,12 @@ export default function NavigationMenu(){
                 <span>Community</span>
             </div>
             </Link>
+            <Link to="/Vista4">
             <div className="projects">
-            <img className="imgProjects" src={projects} alt=""/>
-            <span>Projects</span>
+                <img className="imgProjects" src={projects} alt=""/>
+                <span>Projects</span>
             </div>
+            </Link>
             <Link to="/Vista3">
             <div className="experience">
                 <img className="imgExperience" src={experience} alt=""/>

@@ -5,7 +5,6 @@ import NavigationMenu from "./NavigationMenu.js";
 import siemens from '../img/siemens.png'
 import colenergy from '../img/colenergy.png'
 export default function Vista3() {
-
 return (
   <React.Fragment>
   <div className="v13c">

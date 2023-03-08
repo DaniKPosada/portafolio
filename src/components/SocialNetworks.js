@@ -3,15 +3,32 @@ import linkedin from '../img/linkedin.png';
 import gmail from '../img/gmail.png'
 import cv from '../img/cv.png'
 import dani from '../img/dani.png'
+import React from 'react'
 
 
 export default function SocialNetworks(){
+    const handleDownloadClick = () => {
+        const fileUrl = '../img/CV.pdf'; // URL del archivo a descargar
+        const link = document.createElement('a'); // Crea un elemento <a> en el DOM
+        link.href = fileUrl; // Establece la URL del archivo como href del enlace
+        link.download = 'file.pdf'; // Establece el nombre de descarga del archivo
+        link.click(); // Hace clic en el enlace programáticamente para iniciar la descarga
+      };
+      function copyToClipboard(text){
+        navigator.clipboard.writeText(text).then(() => {
+          setCopied(true);
+          setTimeout(() => setCopied(false), 2000); // Ocultar el mensaje después de 2 segundos
+        });
+    
+          }
+      const [copied, setCopied] = React.useState(false);
     return(
         <div className="socialNetworks">
             <a href="https://github.com/DaniKPosada"><img className="github" src={github} alt="" href=""/></a>
             <a href="https://www.linkedin.com/in/danielacarcamo"><img className="linkedin" src={linkedin} alt=""/></a>
-            <img className="gmail" src={gmail} alt=""/>
-            <img className="cv" src={cv} alt=""/>
+            <img onClick={() => copyToClipboard('d.posada1044@gmail.com')} className="gmail" src={gmail} alt=""/>
+            <div className='mensajeCopiado'>{copied && <p>¡El correo se ha copiado en su portapapeles!</p>}</div>
+            <a onClick={handleDownloadClick}><img className="cv" src={cv} alt=""/></a>
             <img className='dani' src={dani} alt=""/>
         </div>
     );

@@ -33,8 +33,10 @@
   margin-bottom: 50px;
 }
 .dani{
-  width: 120px;
-  height: 120px;
+  position: absolute;
+  margin-top: 600px;
+  width: 250px;
+  height: 250px;
 }
 .v1w{
   font-family: 'Gloria Hallelujah', cursive;
@@ -94,6 +96,17 @@
   background-color: #FAA99D99;
   width: 790px;
   height: 130px;
+}
+.v4Projects{
+  margin-top: 0px;
+  margin-left: -50px;
+  position:absolute;
+  z-index: 1;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  background-color: #67EBFA99;
+  width: 450px;
+  height: 110px;
 }
 .developer{
   margin-top: 10px;
@@ -210,6 +223,7 @@
   background: #67EBFA;
   transition: all 0.3s ease-in-out;
 
+
 }
 .projects:hover {
   transform: translateX(0px);
@@ -322,3 +336,29 @@ a{
   font-size: 34px;
   text-align: center;
 }
+.correo{
+  display: flex;
+  flex-direction: row;
+}
+.mensajeCopiado{
+  border-color: black;
+  border-width: 1px;
+  background-color: yellow;
+  margin-left: 10px;
+  border: 1px;
+  font-size: 25px;
+  position:absolute;
+  margin-top: 300px;
+  z-index: 1;
+}
+.gridProjects {
+  font-family: 'Ubuntu', sans-serif;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* crea tres columnas con un ancho de 1fr cada una */
+  grid-template-rows: repeat(3, 200px); /* crea cuatro filas de 100px de alto cada una */
+  grid-gap: 50px; /* establece un espacio de 10px entre las filas y columnas */
+  justify-content: center;
+  font-size: 25px;
+  text-align: center;
+}
+
