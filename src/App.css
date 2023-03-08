@@ -361,4 +361,10 @@ a{
   font-size: 25px;
   text-align: center;
 }
-
+.calculadora{
+  width: 400px;
+  height: 250px;
+}
+.slot4,.slot5,.slot6{
+  margin-top: 150px;
+}
