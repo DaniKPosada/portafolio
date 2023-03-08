@@ -73,7 +73,7 @@ export default function Vista4() {
                         <span><br></br>Game responsive developed in javascript.</span>
                     </div>
                     <div className="slot6">
-                        <a href="https://sabujcha-sjb7.vercel.app/"><img 
+                        <a href="https://legacy-to-do-list-o115.vercel.app/"><img 
                         className="calculadora" 
                         src={todolist} 
                         alt="Miniatura del proyecto calculadora" 
