@@ -1,5 +1,5 @@
 import Vista1 from './components/Vista1';
-//quihubo
+import Vista2 from './components/Vista2';
 function App() {
   return (
 <>

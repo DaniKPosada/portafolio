@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portafolio/static/css/main.669f8791.css",
+    "main.js": "/portafolio/static/js/main.069809a5.js",
+    "static/media/bground.png": "/portafolio/static/media/bground.85192767db28c032f0a4.png",
+    "static/media/SabujCha.png": "/portafolio/static/media/SabujCha.c169f9cd4dad98a33c05.png",
+    "static/media/juego.png": "/portafolio/static/media/juego.d2761fd48d94fee01dcb.png",
+    "static/media/tributos.png": "/portafolio/static/media/tributos.3d29f20c68f9c69c0bea.png",
+    "static/media/todolist.png": "/portafolio/static/media/todolist.4325e1ee937097c104d5.png",
+    "static/media/dani.png": "/portafolio/static/media/dani.7deab2ac928195ab713b.png",
+    "static/media/programate.png": "/portafolio/static/media/programate.07a126b87851df3a6e3d.png",
+    "static/media/dashboardEmociones.png": "/portafolio/static/media/dashboardEmociones.8d3bbbeee6e3ec76dacf.png",
+    "static/media/uniandes.png": "/portafolio/static/media/uniandes.20e2706d8c4e1089a816.png",
+    "static/media/github.png": "/portafolio/static/media/github.caeb9ff86e1c3e87612e.png",
+    "static/media/gmail.png": "/portafolio/static/media/gmail.82ca6f8b28646367ae08.png",
+    "static/media/colenergy.png": "/portafolio/static/media/colenergy.fcd4b40e14de61f7be8f.png",
+    "static/media/siemens.png": "/portafolio/static/media/siemens.f3d480532a7e4e489a23.png",
+    "static/media/calculadora.png": "/portafolio/static/media/calculadora.a5218c0c6847476769c6.png",
+    "static/media/cv.png": "/portafolio/static/media/cv.02b00606e243f8945ade.png",
+    "static/media/community.png": "/portafolio/static/media/community.e4ac03119b984ad09f92.png",
+    "static/media/linkedin.png": "/portafolio/static/media/linkedin.d21b834035baa551e886.png",
+    "static/media/experience.png": "/portafolio/static/media/experience.cab19215dcffa414f934.png",
+    "index.html": "/portafolio/index.html",
+    "main.669f8791.css.map": "/portafolio/static/css/main.669f8791.css.map",
+    "main.069809a5.js.map": "/portafolio/static/js/main.069809a5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.669f8791.css",
+    "static/js/main.069809a5.js"
+  ]
+}

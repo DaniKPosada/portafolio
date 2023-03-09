@@ -1,6 +1,6 @@
 import SocialNetworks from "./SocialNetworks.js";
 import "../App.css";
-import React from "react";
+import React, { useRef } from "react";
 import NavigationMenu from "./NavigationMenu.js";
 import programateLogo from '../img/programate.png'
 import uniandes from '../img/uniandes.png'
