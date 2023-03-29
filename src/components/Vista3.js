@@ -15,7 +15,7 @@ return (
             <div className="gridExperience">
               <div className="siemens" >
               <img classname="siemensLogo" src={siemens} alt=""/>
-              <span><br></br> Trainee Administrative.<br></br> Nov 2021 - March 2022 </span>
+              <span><br></br><br></br> Trainee Administrative.<br></br> Nov 2021 - March 2022 </span>
               </div>
               <div className="colenergy" >
               <img classname="colenergyLogo" src={colenergy} alt=""/>

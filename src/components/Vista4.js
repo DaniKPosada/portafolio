@@ -19,6 +19,7 @@ export default function Vista4() {
                 <div className="title"><span>PROJECTS</span></div>
                 <div className="gridProjects">
                     <div className="slot1">
+                        <div>Landing Page</div>
                         <a href="https://sabujcha-sjb7.vercel.app/">
                         <img 
                         className="calculadora" 
@@ -31,6 +32,7 @@ export default function Vista4() {
                         </span>
                     </div>
                     <div className="slot2">
+                        <div>Calculator</div>
                         <a href="https://6369d946280e5366538e6a50--inquisitive-klepon-8b2b5e.netlify.app/">
                         <img 
                         className="calculadora" 
@@ -41,6 +43,7 @@ export default function Vista4() {
                         <span><br></br>A calculator developed in JavaScript with a responsive web design.</span>
                     </div>
                     <div className="slot3">
+                        <div>Dashboard of emotions</div>
                         <a href="https://neon-sfogliatella-5dfada.netlify.app/">
                         <img 
                         className="calculadora" 
@@ -52,6 +55,7 @@ export default function Vista4() {
                         Developed using Figma, HTML and CSS with animations. </span>
                     </div>
                     <div className="slot4">
+                        <div>Tribute website</div>
                         <a href="https://tributo-psi.vercel.app/">
                         <img 
                         className="calculadora" 
@@ -62,7 +66,8 @@ export default function Vista4() {
                         <span><br></br>My first tribute web page in HTML.</span>
                     </div>
                     <div className="slot5">
-                    <a href="https://lambent-axolotl-7d7967.netlify.app/">
+                        <div>Game</div>
+                        <a href="https://lambent-axolotl-7d7967.netlify.app/">
                         <img 
                         className="calculadora" 
                         src={juego} 
@@ -72,6 +77,7 @@ export default function Vista4() {
                         <span><br></br>Game responsive developed in javascript.</span>
                     </div>
                     <div className="slot6">
+                        <div>To Do List</div>
                         <a href="https://legacy-to-do-list-o115.vercel.app/"><img 
                         className="calculadora" 
                         src={todolist} 

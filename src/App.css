@@ -91,14 +91,14 @@ html, body {
 }
 .v3Experience{
   margin-top: 0px;
-  margin-left: -30px;
+  margin-left: 10px;
   position:absolute;
   z-index: 1;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   background-color: #FAA99D99;
-  width: 790px;
-  height: 130px;
+  width: 480px;
+  height: 80px;
 }
 .v4Projects{
   margin-top: 0px;
@@ -317,7 +317,7 @@ a{
   
 }
 .siemens img{
-  width: 360px;
+  width: 300px;
   height: auto;
   margin-bottom: 2px;
 }
@@ -328,7 +328,7 @@ a{
   align-content: center;
 }
 .colenergy img{
-  width: 400px;
+  width: 300px;
   height: auto;
 }
 .gridExperience {
@@ -336,10 +336,10 @@ a{
   margin-top: 100px;
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* crea tres columnas con un ancho de 1fr cada una */
-  grid-template-rows: repeat(1, 500px); /* crea cuatro filas de 100px de alto cada una */
+  grid-template-rows: repeat(1, 200px); /* crea cuatro filas de 100px de alto cada una */
   grid-gap: 50px; /* establece un espacio de 10px entre las filas y columnas */
   justify-content: center;
-  font-size: 34px;
+  font-size: 25px;
   text-align: center;
 }
 .correo{
@@ -363,9 +363,9 @@ a{
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* crea tres columnas con un ancho de 1fr cada una */
   grid-template-rows: repeat(3, 60px); /* crea cuatro filas de 100px de alto cada una */
-  grid-gap: 10px; /* establece un espacio de 10px entre las filas y columnas */
+  grid-gap: 25px; /* establece un espacio de 10px entre las filas y columnas */
   justify-content: center;
-  font-size: 10px;
+  font-size: 20px;
   text-align: center;
   position: absolute;
   z-index: 0;
@@ -374,7 +374,7 @@ a{
   display: none;
 }
 .calculadora{
-  width: 285px;
+  width: 300px;
   height: 200px;
 }
 .slot4,.slot5,.slot6{
