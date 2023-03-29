@@ -17,15 +17,15 @@ return (
             <div className="gridStudies">
               <div className="programate">
                 <img classname="programateLogo" src={programateLogo} alt=""/>
-                <span>Web Developer HTML, CSS, JS, React, MongoDB.<br></br>March 2023</span>
+                <span><br></br>Web Developer HTML, CSS, JS, React, MongoDB.<br></br>March 2023</span>
               </div>
               <div className="uniandes" >
               <img classname="uniandes" src={uniandes} alt=""/>
-              <span><br></br> Electrical Engineer Emphasis: Alternative Energies.<br></br> Nov 2021</span>
+              <span><br></br><br></br> Electrical Engineer Emphasis: Alternative Energies.<br></br> Nov 2021</span>
               </div>
               <div className="uniandes" >
               <img classname="uniandes" src={uniandes} alt=""/>
-              <span><br></br>Electronic Engineer Emphasis: Electronic Systems <br></br> Sep 2021</span>
+              <span><br></br><br></br>Electronic Engineer Emphasis: Electronic Systems <br></br> Sep 2021</span>
               </div>
             </div>
           </div>
