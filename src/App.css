@@ -4,41 +4,32 @@
 html, body {
   height: 100%;
 }
-
-.github {
-  width: 76px;
-  height: 76px;
-  margin-bottom: 30px;
-}
-
 .socialNetworks {
   display: flex;
   flex-direction: column;
-  margin: 40px 0px 0px 50px;
+  margin: 0px 0px 0px 50px;
   align-items: center;
+  justify-content: space-around;
   width: 8vw;
 }
-
+.github {
+  width: 76px;
+  height: 76px;
+}
 .linkedin {
   width: 62px;
   height: 62px;
-  margin-bottom: 30px;
 }
 .gmail {
   width: 62px;
   height: 65px;
-  margin-bottom: 30px;
 }
-
 .cv {
   width: 76px;
   height: 76px;
-  margin-bottom: 30px;
 }
-
 .dani {
-  position: absolute;
-  margin-top: 400px;
+
   width: 150px;
   height: 150px;
 }
@@ -58,10 +49,13 @@ html, body {
 .v1c{
   display: flex;
   flex-direction: column;
-  margin-top: 23px;
+  margin-top: 0px;
   margin-left: 200px;
+  justify-content: center;
   width: 70vw;
   height: 100%;
+  position: relative;
+  z-index: 0;
 }
 .v2c{
   display: flex;
@@ -112,7 +106,7 @@ html, body {
   height: 80px;
 }
 .developer{
-  margin-top: 0px;
+  margin-top: -460px;
   position:absolute;
   z-index: 1;
   -moz-border-radius: 50%;
@@ -123,7 +117,7 @@ html, body {
   margin-left: 0px;
 }
 .leader{
-  margin-top: 100px;
+  margin-top: -260px;
   margin-right: -120px;
   position:absolute;
   z-index: 1;
@@ -134,25 +128,25 @@ html, body {
   height: 80px;
 }
 .name{
-  margin-top: 200px;
+  margin-top: -30px;
   position:absolute;
   z-index: 1;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   background-color: #FDDF7E99;
-  width: 650px;
-  height: 110px;
+  width: 700px;
+  height: 100px;
 }
 .being{
-  margin-top: 390px;
-  margin-left: -120px;
+  margin-top: 310px;
+  margin-left: -110px;
   position:absolute;
   z-index: 1;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   background-color: #9BFBE199;
-  width: 330px;
-  height: 90px;
+  width: 300px;
+  height: 70px;
 }
 .engineer{
   margin-top: 470px;
@@ -200,10 +194,10 @@ html, body {
   flex-direction: column;
   width: 25vw;
   overflow-x: hidden;
-  justify-content: center;
+  justify-content: flex-end;
 }
 .community,.projects, .education, .home, .experience{
-  z-index: 3;
+  z-index: 5;
   display: flex;
   flex-direction: row;
   font-family: 'Ubuntu', sans-serif;
@@ -379,4 +373,159 @@ a{
 }
 .slot4,.slot5,.slot6{
   margin-top: 150px;
+}
+.daniPhone{
+  display: none;
+}
+@media (max-width:320px){
+  .v13c{
+    flex-direction: column;
+    align-items: space-around;
+    background-image: url('./img/dot-grid.webp');
+  }
+  .v1c, .xarrow{
+    display: none;
+  }
+  .socialNetworks {
+    margin: 20px 0px 0px 0px!important;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+  }
+  .github {
+    width: 56px;
+    height: 56px;
+  }
+  .linkedin {
+    width: 42px;
+    height: 42px;
+  }
+  .gmail {
+    width: 42px;
+    height: 45px;
+  }
+  .cv {
+    width: 56px;
+    height: 56px;
+  }
+  .navbar{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    align-items: flex-end!important;
+    justify-content: flex-end!important;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    z-index: 5;
+  }
+  .community,.projects, .education, .home, .experience{
+    font-size: 25px;
+    height: 60.23px;
+    border-radius: 15px 0px 0px 15px;
+    padding-left: 10px;
+    transform: translateX(76%);
+    align-items: center;
+  }
+  .projects{
+    transform: translateX(74%);
+  }
+  .experience{
+    transform: translateX(81%);
+  }
+  .education{
+    transform: translateX(74%);
+  }
+  .home{
+    transform: translateX(64%);
+  }
+  .home:hover {
+    transform: translateX(0%);
+  
+  }
+  .imgHome{
+    width: 35px;
+    height: 35px;
+    margin-right:10px ;
+  }
+  .imgEducation{
+    width: 26px;
+    height: 26px;
+    margin-right:20px ;
+  }
+  .imgExperience{
+    width: 30px;
+    height: 30px;
+    margin-right:5px ;
+  }
+  .imgProjects{
+    width: 40px;
+    height: 40px;
+  }
+  .imgCommunity{
+    width: 30px;
+    height: 30px;
+    margin-right:10px ;
+  }
+  .dani{
+display: none;  }
+.daniPhone{
+  margin-top: 120px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  align-content: space-around;
+}
+.title1{
+  margin-bottom: 30px;
+  font-size: 25px;
+  align-self: center;
+  text-align: center;
+  font-weight: 500;
+}
+.daniPhone img{
+  width: 175px;
+}
+mark {
+  -webkit-animation: 1.5s highlight 1.5s 1 normal forwards;
+          animation: 1.5s highlight 1.5s 1 normal forwards;
+  background-color: none;
+  background: linear-gradient(90deg, #7efff5 50%, rgba(255, 255, 255, 0) 50%);
+  background-size: 200% 100%;
+  background-position: 100% 0;
+}
+
+@-webkit-keyframes highlight {
+  to {
+    background-position: 0 0;
+  }
+}
+
+@keyframes highlight {
+  to {
+    background-position: 0 0;
+  }
+}
+
+.description{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  font-size: 20px;
+  align-self: flex-start;
+}
+.imgEstrella{
+  width: 25px!important;
+  height: 25px;
+}
+.dint{
+  display: flex;
+  flex-direction: row;
+  padding: 7px;
+}
 }

@@ -1,14 +1,27 @@
-import SocialNetworks from "./SocialNetworks.js";
-import "../App.css";
+import React, { useRef, useEffect } from "react";
 import Xarrow from "react-xarrows"; 
-import React, { useRef } from "react";
+import SocialNetworks from "./SocialNetworks.js";
 import NavigationMenu from "./NavigationMenu.js";
+import dani from '../img/dani.png'
+import estrella from '../img/estrella.png';
+import "../App.css";
+
 export default function Vista1() {
     const developerRef = useRef(null);
     const leaderRef = useRef(null);
     const nameRef = useRef(null);
     const beingRef = useRef(null);
     const engineerRef = useRef(null);
+
+    useEffect(() => {
+      const handleResize = () => {
+        // Actualizar las conexiones de las xarrow
+        Xarrow.updateAll();
+      };
+      window.addEventListener("resize", handleResize);
+  
+      return () => window.removeEventListener("resize", handleResize);
+    }, []);
 
 return (
 <React.Fragment>
@@ -25,6 +38,16 @@ return (
           <div className="v1w be"><span>Human Being</span></div>
           <div className="engineer" ref={engineerRef}></div>
           <div className="v1w en"><span>Engineer</span></div>
+        </div>
+        <div className="daniPhone">
+          <div className="title1"><mark> Daniela Cárcamo Posada <br></br>Web Developer</mark></div>
+          <img src={dani} alt=""/>
+          <div className="description">
+            <div className="dint"><img className="imgEstrella" src={estrella} alt=""/><span>&nbsp; Engineer</span></div>
+            <div className="dint"><img className="imgEstrella" src={estrella} alt=""/><span>&nbsp; Social Leader</span></div>
+            <div className="dint"><img className="imgEstrella" src={estrella} alt=""/><span>&nbsp; Human Being</span></div>
+            <div className="dint"><img className="imgEstrella" src={estrella} alt=""/><span>&nbsp; Developer</span></div>
+          </div>
         </div>
         <NavigationMenu/>
       </div>

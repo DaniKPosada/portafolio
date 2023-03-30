@@ -5,15 +5,7 @@ import cv from '../img/cv.png'
 import dani from '../img/dani.png'
 import React from 'react'
 
-
 export default function SocialNetworks(){
-    const handleDownloadClick = () => {
-        const fileUrl = '../img/CV.pdf'; // URL del archivo a descargar
-        const link = document.createElement('a'); // Crea un elemento <a> en el DOM
-        link.href = fileUrl; // Establece la URL del archivo como href del enlace
-        link.download = 'file.pdf'; // Establece el nombre de descarga del archivo
-        link.click(); // Hace clic en el enlace programáticamente para iniciar la descarga
-      };
       function copyToClipboard(text){
         navigator.clipboard.writeText(text).then(() => {
           setCopied(true);
@@ -28,7 +20,7 @@ export default function SocialNetworks(){
             <a href="https://www.linkedin.com/in/danielacarcamo"><img className="linkedin" src={linkedin} alt=""/></a>
             <img onClick={() => copyToClipboard('d.posada1044@gmail.com')} className="gmail" src={gmail} alt=""/>
             <div className='mensajeCopiado'>{copied && <p>¡El correo se ha copiado en su portapapeles!</p>}</div>
-            <a href="https://drive.google.com/file/d/11MQja5nwOq7yefEFeHCFECYL7N7YOmGU/view?usp=sharing"><img className="cv" src={cv} alt="" onClick={handleDownloadClick}/></a>
+            <a href="https://drive.google.com/file/d/11MQja5nwOq7yefEFeHCFECYL7N7YOmGU/view?usp=sharing"><img className="cv" src={cv} alt=""/></a>
             <img className='dani' src={dani} alt=""/>
         </div>
     );
