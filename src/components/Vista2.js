@@ -20,12 +20,12 @@ return (
                 <span><br></br>Web Developer HTML, CSS, JS, React, MongoDB.<br></br>March 2023</span>
               </div>
               <div className="uniandes" >
-              <img classname="uniandes" src={uniandes} alt=""/>
-              <span><br></br><br></br> Electrical Engineer Emphasis: Alternative Energies.<br></br> Nov 2021</span>
+                <img classname="uniandes" src={uniandes} alt=""/>
+                <span><br></br><br></br> Electrical Engineer Emphasis: Alternative Energies.<br></br> Nov 2021</span>
               </div>
               <div className="uniandes" >
-              <img classname="uniandes" src={uniandes} alt=""/>
-              <span><br></br><br></br>Electronic Engineer Emphasis: Electronic Systems <br></br> Sep 2021</span>
+                <img classname="uniandes" src={uniandes} alt=""/>
+                <span><br></br><br></br>Electronic Engineer Emphasis: Electronic Systems <br></br> Sep 2021</span>
               </div>
             </div>
           </div>

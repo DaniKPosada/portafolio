@@ -11,7 +11,7 @@ return (
           <SocialNetworks />
           <div className="v3c">
             <div className="v3Experience"></div>
-            <div className="title"><span>WORK EXPERIENCE</span></div>
+            <div className="title"><span>EXPERIENCE</span></div>
             <div className="gridExperience">
               <div className="siemens" >
               <img classname="siemensLogo" src={siemens} alt=""/>

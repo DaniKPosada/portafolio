@@ -90,7 +90,7 @@ html, body {
   z-index: 1;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
-  background-color: #FAA99D99;
+  background-color: #9BFBE199;
   width: 480px;
   height: 80px;
 }
@@ -432,13 +432,13 @@ a{
     transform: translateX(74%);
   }
   .experience{
-    transform: translateX(81%);
+    transform: translateX(82%);
   }
   .education{
     transform: translateX(74%);
   }
   .home{
-    transform: translateX(64%);
+    transform: translateX(68%);
   }
   .home:hover {
     transform: translateX(0%);
@@ -528,4 +528,84 @@ mark {
   flex-direction: row;
   padding: 7px;
 }
+.title span{
+  margin-left: 0px;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
 }
+.v2c{
+  margin-top: 100px;
+  margin-left: 40px;
+  text-align: center;
+  width: 70vw;
+  height: 100%;
+  position: absolute;
+  z-index: 0;
+}
+.gridStudies {
+  margin: 0px;
+  margin-top: 30px;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(3, 100px);
+  grid-gap:50px;
+  justify-content: center;
+  font-size: 15px;
+  text-align: center;
+}
+.v2Education{
+  margin: 0px;
+  margin-top: 10px;
+  width: 220px;
+  height: 70px;
+}
+.v3Experience{
+  margin: 0px;
+  margin-top: 10px;
+  width: 220px;
+  height: 70px;
+}
+.v3c{
+  margin-top: 100px;
+  margin-left: 40px;
+  text-align: center;
+  width: 70vw;
+  height: 100%;
+  position: absolute;
+  z-index: 0;
+}
+.uniandes img{
+  width: 70px;
+  height: auto;
+  margin-bottom: -15px; 
+}
+.programate img{
+  width: 200px;
+  height: auto;
+  margin-bottom: -0px;
+}
+.uniandes span{
+  margin-bottom: 20px;
+}
+.community,.projects, .education, .home, .experience{
+  padding-right: 20px;
+}
+.gridExperience {
+  margin: 0px;
+  margin-top: 0px;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(3, 100px);
+  grid-gap:90px;
+  justify-content: center;
+  font-size: 15px;
+  text-align: center;
+}
+.colenergy img{
+  width: 200px;
+}
+.siemens img{
+  width: 200px;
+  margin-bottom: -20px;
+}
+}
+
